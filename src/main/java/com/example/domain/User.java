@@ -34,6 +34,10 @@ public class User {
 		this.email = email;
 	}
 
+	public String getPassword() {
+		return password;
+	}
+
 	public void update(User newUser) {
 		// TODO Auto-generated method stub
 		this.password = newUser.password;
