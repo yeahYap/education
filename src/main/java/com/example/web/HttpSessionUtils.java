@@ -13,7 +13,7 @@ public class HttpSessionUtils {
 			return false;
 		}
 		
-		return false;
+		return true;
 	}
 	
 	public static User getUserFromSession(HttpSession session){
